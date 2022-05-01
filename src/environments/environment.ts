@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  M3O_API_TOKEN: "YWIzMWI0OWYtNjRiZi00MTRmLThmNzUtMzczYzc4YjRjZDJj",
+  API_URL: "https://api.m3o.com/v1",
+  firebaseConfig: {
+    apiKey: "AIzaSyBDH3wQuo0BzyoUHCrICicQh1DaWQknD78",
+    authDomain: "frontend-challenge-allan.firebaseapp.com",
+    projectId: "frontend-challenge-allan",
+    storageBucket: "frontend-challenge-allan.appspot.com",
+    messagingSenderId: "765434810981",
+    appId: "1:765434810981:web:f517e3569a6f5ae95fec8c"
+  }
 };
 
 /*
